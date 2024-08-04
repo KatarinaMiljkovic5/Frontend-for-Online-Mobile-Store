@@ -1,0 +1,15 @@
+
+.footer {
+    background-color:  #41576b;
+    color: white;
+    width: 100%;
+}
+.footer .btn {
+    color: #ffffff; 
+    border-color: #ffffff; 
+}
+.footer .btn:hover {
+    background-color: #ffffff; 
+    color: #343a40;
+  
+}

@@ -1,0 +1,67 @@
+/*body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #4b535b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-logo img {
+  border-radius: 20px;
+  margin-right: 18px;
+  height: 40px;
+  width: 40px;
+ 
+}
+
+.nav-logo {
+  position: relative;
+  left: -80px;
+}
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #49545f; /* Darker color for better contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px; /* Adjusted padding for better spacing */
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%; /* Changed to circle for a different look */
+  border: 2px solid #ecf0f1; /* Light border for visual separation */
+}
+
+.nav-link {
+  padding: 10px 15px; /* Adjusted padding for better click areas */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Highlight the active link */
+  color: #e74c3c; /* Different color for the active link */
+}
+
+.nav-link:hover {
+  color: #ecf0f1; /* Change color on hover for better visual feedback */
+}
+
+.navbar-toggler {
+  border: none; /* Remove default border */
+}
+
+.bg-custom {
+  background-color: #41576b; /* Same as navbar color for consistency */
+}
+
